@@ -17,7 +17,7 @@ def find_the_cheese(array)
   
   for index in array do
     if cheese_types.include?(index)
-      return true
+      return index
     end
   end
 
