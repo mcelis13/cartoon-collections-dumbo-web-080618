@@ -14,10 +14,12 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
   for index in array do
     if cheese_types.include?(index)
       return true
     end
   end
+
   return nil
 end
