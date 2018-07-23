@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  newArray = array.collect { |index| "/#{array.size}. *#{index}"}
+  newArray = array.collect { |index| "/#{array.size}. *#{index}/"}
   return newArray
 end
 
