@@ -1,6 +1,5 @@
 def roll_call_dwarves(array)
   newArray = array.collect { |index| puts "/#{array.size}. *#{index}\n/"}
-  return newArray
 end
 
 def summon_captain_planet(array)
